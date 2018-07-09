@@ -4,7 +4,7 @@
 
 url: http://topkz.github.io
 title: TOП
-email: your-email@domain.com
+email: ataniyaz25@gmail.com
 author: Otaniyoz
 description: > # "Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
@@ -16,7 +16,6 @@ credits: 'Credits: Bootstrap theme created by <a href="http://startbootstrap.com
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
-
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -26,5 +25,3 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/notsoperfecttwi

@@ -1,8 +1,0 @@
----
-layout: default
-img: ipad.png
-category: Services
-title: Targeted Herbicide Sprayer based on Computer Vision
-description: |
----
- Targeting plants that need herbicides, which saves 95% to 99% of herbicides.

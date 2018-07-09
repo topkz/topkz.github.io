@@ -1,0 +1,17 @@
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <br/><br/>
+              <h2>About Us</h2>
+              <br/>
+                <p>A startup based in Astana, Kazakhstan.</p>
+                <p>Our team aims to solve three problems faced by agriculture in Kazakhstan.</p>
+                <p>1. Billions of dollars are spent on herbicides to fight with weeds.</p>
+                <p>2. Weeds get resistant to herbicides, due to usage in high doses.</p>
+                <p>3. Herbicides largely contribute to human health
+problems and water, soil, and air contamination.</p>
+                <br/>
+              </div>
+        </div>
+    </section>
