@@ -1,5 +1,351 @@
----
-layout: default
-title: TOП
-subTitle: A Template by Start Bootstrap
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Smart Herbicide Spraying</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/gaia.css" rel="stylesheet"/>
+
+    <!--     Fonts and icons     -->
+    <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+
+    <body>
+
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+        <div class="container">
+            <div class="navbar-header">
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
+                <a href="" class="navbar-brand">
+                    SHS
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                    <li class="dropdown">
+                        <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-share-alt"></i> Share
+                        </a>
+                        <ul class="dropdown-menu dropdown-danger">
+                            <li>
+                                <a id="facebook" href="#gaia"><i class="fa fa-facebook-square"></i> Facebook</a>
+                            </li>
+                            <li>
+                                <a id="twitter" href="#gaia"><i class="fa fa-twitter"></i> Twitter</a>
+                            </li>
+                            <li>
+                                <a id="google" href="#gaia" id><i class="fa fa-google-plus"></i> Google</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="section section-header">
+        <div class="parallax filter filter-color-black">
+            <div class="image"
+                style="background-image: url('assets/img/header-1.jpeg')">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="title-area">
+                        <h1 class="title-modern">Smart Herbicide Spraying</h1>
+                        <h2 class="title-modern">Spray Only What You Need</h2>
+                    </div>
+
+                    <button id="myBtn" class="btn btn-round btn-white">Watch Our Video</button>
+                    
+                </div>
+                  
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <center>
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="auto" height="100%" src="https://www.youtube.com/embed/HLZuvATx9k0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                      </div>
+                    </center>
+                  </div>
+                    
+                </div>
+
+                <script>
+                  var modal = document.getElementById('myModal');
+                  var btn = document.getElementById("myBtn");
+                  var span = document.getElementsByClassName("close")[0];
+                  btn.onclick = function() {
+                  modal.style.display = "block";
+                  }
+                  
+                  span.onclick = function() {
+                  modal.style.display = "none";
+                  }
+                  
+                  window.onclick = function(event) {
+                  if (event.target == modal) {
+                  modal.style.display = "none";
+                  }
+                  }
+                </script>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="title-area">
+                    <h2 class="title-modern">Targeted Herbicide Sprayer based on Computer Vision.</h2>
+                    <h4 class="title-modern">Currently farmers around the globe are battling three main problems:</h4>
+                </div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="info-icon">
+                        <div class="icon text-green">
+                            <i class="pe-7s-graph1"></i>
+                        </div>
+                        <h3 class="title-modern">High Herbicide Usage</h3>
+                        <p class="description">Weeds get resistant to herbicides, due to uncontrolled application and usage in high doses.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info-icon">
+                        <div class="icon text-green">
+                            <i class="pe-7s-piggy"></i>
+                        </div>
+                        <h3 class="title-modern">Costly Resources</h3>
+                        <p class="description">Billions of dollars are spent on herbicides to fight with weeds.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info-icon">
+                        <div class="icon text-green">
+                            <i class="pe-7s-global"></i>
+                        </div>
+                        <h3 class="title-modern">Negative Ecological Impact</h3>
+                        <p class="description">Herbicides largely contribute to human health problems and water, soil, and air contamination.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="title-area">
+                    <h4 class="title-modern">Targeting plants that need herbicides, saves 60% of herbicides. Empowered by state-of-the-art computer visison technologies, our product <strong>saves time, saves money, saves resources,</strong> and is <strong>environment friendly</strong>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="row">
+                  
+                  <div class="col-md-3">
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <center>
+                    <div class="card card-plain">
+                        <img alt="..." src="assets/img/ipad.png"/>
+                    </div>
+                    </center>
+                  </div>
+                  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-our-team-freebie">
+        <div class="parallax filter filter-color-black">
+            <div class="image" style="background-image:url('assets/img/header-2.jpeg')">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="row">
+                        <div class="title-area">
+                            <h2 class="title-modern">Meet Our Team</h2>
+                        </div>
+                    </div>
+
+                    <div class="team">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-green">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_1.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Miras Sovetov</h3>
+                                                    <p class="small-text">CEO / Founder</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-green">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_4.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Daniyar Amantayev</h3>
+                                                    <p class="small-text">Hardware Engineer / Co-Founder</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-green">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_3.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Otaniyoz Otaniyozov</h3>
+                                                    <p class="small-text">Computer Vision Engineer / Co-Founder</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-green">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_5.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Vladimir Novohatsky</h3>
+                                                    <p class="small-text">Electrical Engineer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-green">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_2.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Aidar Alimbayev</h3>
+                                                    <p class="small-text">Electrical Engineer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                        <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-green">
+                                                    <img alt="..." class="img-circle" src="assets/img/faces/face_3.jpg"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Alibek Manabayev</h3>
+                                                    <p class="small-text">Software Engineer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer footer-big footer-color-black" data-color="black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3">
+            <div class="info">
+              <h5 class="title">Smart Herbicide Spraying</h5>
+              <nav>
+                <ul>
+                  <li>
+                    <p>Combining hardware with computer vision into precise herbicide application system.</p>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1 col-sm-3">
+            <div class="info">
+              <h5 class="title">Contacts</h5>
+              <nav>
+                <ul>
+                  <li>
+                    <strong>Business</strong>
+                    <a href="#">business@abacus.com</a>
+                  </li>
+
+                  <li>
+                    <strong>Support</strong>
+                    <a href="#">support@abacus.com</a>
+                  </li>
+
+                  <li>
+                    <strong>Press</strong>
+                    <a href="#">press@abacus.com</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="copyright">
+          © 2018 Abacus LLC.
+        </div>
+      </div>
+    </footer>
+    
+</body>
+
+<!--   core js files    -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+<!-- script for demo purpose sharing buttons -->
+<script type="text/javascript" src="assets/js/jquery.sharrre.js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="assets/js/gaia.js"></script>
+
+</html>
