@@ -3640,6 +3640,9 @@ body {
     transform: translate3d(-280px, 0, 0);
   }
 }
+
+
+
 @media (max-width: 767px) {
   .footer .social-area.pull-right,
   .footer nav.pull-left {
@@ -3692,6 +3695,63 @@ body {
     padding: 0;
   }
 }
+
+.card-price {
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 10px;
+  position: relative;
+}
+.card-price .content {
+  padding: 40px 20px;
+}
+.card-price span {
+  color: #777;
+}
+.card-price .title-header {
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #777777;
+}
+.card-price .subtitle-header {
+  font-weight: 500;
+}
+.card-price .price {
+  position: relative;
+  display: inline-block;
+  color: #777777;
+}
+.card-price .price .number {
+  font-size: 65px;
+  font-weight: 600;
+  color: #c5a47e;
+}
+.card-price .price i {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  font-size: 27px;
+}
+.card-price .text-description {
+  line-height: 1.8;
+  color: #777777;
+}
+.card-price .text-center .btn.btn-info.btn-round.btn-fill {
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #c5a47e;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  line-height: 14px;
+  padding: 9px 31px;
+}
+.card-price .text-center .btn.btn-info.btn-round.btn-fill:hover {
+  background-color: #bd986c;
+}
+
 @media (max-width: 992px) {
   .section-faq .box {
     max-width: 480px;
