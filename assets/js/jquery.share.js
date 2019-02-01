@@ -59,7 +59,7 @@
         lang: 'en_US'
       },
       twitter: {  //http://twitter.com/about/resources/tweetbutton
-        url: '',  //if you need to personalize url button
+        url: 'http://abacustech.co/',  //if you need to personalize url button
         urlCount: false,  //if you want to use personnalize button url on global counter
         count: 'horizontal',
         hashtags: '',
@@ -326,7 +326,7 @@
     },
     twitter: function(opt){
       window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(opt.text)+"&url="+encodeURIComponent((opt.buttons.twitter.url !== '' ? opt.buttons.twitter.url : opt.url))+(opt.buttons.twitter.via !== '' ? '&via='+opt.buttons.twitter.via : ''), "", "toolbar=0, status=0, width=650, height=360");
-    },
+    }, //
     digg: function(opt){
       window.open("http://digg.com/tools/diggthis/submit?url="+encodeURIComponent((opt.buttons.digg.url !== '' ? opt.buttons.digg.url : opt.url))+"&title="+opt.text+"&related=true&style=true", "", "toolbar=0, status=0, width=650, height=360");
     },
